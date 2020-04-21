@@ -1,0 +1,47 @@
+[
+  {
+    "img": "./imgs/distortion.jpg",
+    "p": "This is where you will enter the information",
+    "button": "Distortion"
+  },
+  {
+    "img": "./imgs/fuzz.jpg",
+    "p": "This is where you will enter the information",
+    "button": "Fuzz"
+  },
+  {
+    "img": "./imgs/overdrive.jpg",
+    "p": "This is where you will enter the information",
+    "button": "OverDrive"
+  },
+  {
+    "img": "./imgs/reverb.jpg",
+    "p": "This is where you will enter the information",
+    "button": "Reverb"
+  },
+  {
+    "img": "./imgs/wah.jpg",
+    "p": "This is where you will enter the information",
+    "button": "Wah"
+  },
+  {
+    "img": "./imgs/delay.jpg",
+    "p": "This is where you will enter the information",
+    "button": "Delay"
+  },
+  {
+    "img": "./imgs/looping.jpg",
+    "p": "This is where you will enter the information",
+    "button": "Looping"
+  },
+  {
+    "img": "./imgs/distortion.jpg",
+    "p": "This is where you will enter the information",
+    "button": "something2"
+  },
+  {
+    "img": "./imgs/distortion.jpg",
+    "p": "This is where you will enter the information",
+    "button": "something1"
+  }
+]

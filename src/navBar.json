@@ -1,0 +1,10 @@
+[
+  { "name": "Distortion" },
+  { "name": "Fuzz" },
+  { "name": "Overdrive" },
+  { "name": "Reverb" },
+  { "name": "Wah" },
+  { "name": "Delay" },
+  { "name": "Looping" },
+  { "name": "The Rest" }
+]
