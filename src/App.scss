@@ -3,34 +3,25 @@
   padding: 0;
 }
 body {
-  background-color: black;
-}
-.welcome {
   background-image: url("./imgs/guitar.jpg");
+
   background-repeat: no-repeat;
-  background-size: cover;
-  height: 500px;
-  color: white;
-  text-align: center;
-  h1 {
-    padding: 50px;
-  }
-  p {
-    padding: 0px 100px 0px 100px;
-  }
+  background-size: 100%;
+}
+.bm-burger-button {
+  display: none;
 }
 .nav-bar {
   display: flex;
   align-items: center;
-  background-color: black;
-  height: 30px;
+
   a {
+    background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
     border: 1px solid white;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-radius: 0 0 10px 10px;
     color: white;
     height: 30px;
     width: 12.5%;
@@ -38,17 +29,27 @@ body {
     text-decoration: none;
   }
 }
+.welcome {
+  color: white;
+  text-align: center;
+  margin-bottom: 50px;
+  h1 {
+    padding: 50px;
+  }
+  p {
+    padding: 0px 100px 0px 100px;
+  }
+}
 
 .pedal-elements {
   display: grid;
-  grid-template-columns: repeat(3, auto);
+  grid-template-columns: repeat(5, auto);
   grid-gap: 5%;
   background-repeat: none;
   width: 90%;
   padding: 5% 5% 0 5%;
   text-align: center;
   color: white;
-
   img {
     width: 100%;
     height: 220px;
@@ -66,11 +67,71 @@ body {
     cursor: pointer;
   }
 }
-
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 1400px) {
   .pedal-elements {
-    display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(4, auto);
+  }
+}
+@media screen and (max-width: 1200px) {
+  .pedal-elements {
+    grid-template-columns: repeat(3, auto);
+  }
+}
+@media screen and (max-width: 600px) {
+  body {
+    background-color: black;
+  }
+  .sidebar {
+    width: 1000px;
+  }
+
+  .bm-item {
+    height: 30px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    width: 300px;
+    text-align: left;
+    padding-left: 5px;
+    border-radius: 10px 0 0 10px;
+  }
+  .bm-item-list {
+    margin-top: 40px;
+    margin-bottom: 0;
+  }
+  .bm-burger-button {
+    display: block;
+    position: relative;
+    float: right;
+    width: 30px;
+    height: 30px;
+    margin: 10px 10px 0 0;
+  }
+  .bm-burger-bars {
+    background: white;
+    border-radius: 5px;
+  }
+  .bm-cross-button {
+    height: 24px;
+    width: 24px;
+    color: white;
+    background-color: black;
+  }
+  .bm-cross {
+    color: white;
+    background-color: white;
+  }
+
+  .nav-bar {
+    display: none;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: black;
+    a {
+      border-radius: 10px 0px 0px 10px;
+      width: 99%;
+    }
   }
   .welcome {
     h1 {
@@ -78,6 +139,27 @@ body {
     }
     p {
       padding: 0 50px 0 50px;
+    }
+  }
+  .pedal-elements {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 2%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  body .pedal-elements {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    div {
+      margin-bottom: 30px;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
     }
   }
 }
