@@ -3,9 +3,9 @@
   { "name": "Distortion", "link": "/Distortion" },
   { "name": "Fuzz", "link": "/Fuzz" },
   { "name": "Overdrive", "link": "/Overdrive" },
-  { "name": "Reverb", "link": "/Reverb" },
+
   { "name": "Wah", "link": "/Wah" },
-  { "name": "Delay", "link": "/Delay" },
+  { "name": "Delay & Reverb", "link": "/Delay" },
   { "name": "Looping", "link": "/Looping" },
   { "name": "The Rest", "link": "/TheRest" }
 ]
