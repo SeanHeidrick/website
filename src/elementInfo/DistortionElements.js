@@ -3,364 +3,299 @@ export const pedals = {
     {
       img: "./imgs/behringer.jpg",
       p: "Behringer UM300",
-      button: "See Pedal",
+
+      link:
+        "https://www.musiciansfriend.com/amplifiers-effects/behringer-um300-ultra-metal-distortion-guitar-effects-pedal?rNtt=distortion%20pedals&index=1",
     },
     {
       img: "/imgs/widowMaker.jpg",
       p: "Boss Turbo Distortion",
-      button: "See Pedal",
+      link:
+        "https://www.musiciansfriend.com/amplifiers-effects/xotic-effects-sl-drive-distortion-guitar-effects-pedal/h99286000000000?rNtt=distortion%20pedals&index=3",
+    },
+    {
+      img: "/imgs/distortion.jpg",
+      p: "Xotic Effects",
+    },
+    {
+      img: "./imgs/distortion.jpg",
+      p: "Boss Turbo Distortion",
+    },
+    {
+      img: "./imgs/distortion.jpg",
+      p: "Boss Turbo Distortion",
+    },
+    {
+      img: "./imgs/distortion.jpg",
+      p: "Boss Turbo Distortion",
     },
     {
       img: "/imgs/distortion.jpg",
       p: "Boss Turbo Distortion",
-      button: "See Pedal",
     },
     {
       img: "./imgs/distortion.jpg",
       p: "Boss Turbo Distortion",
-      button: "See Pedal",
     },
     {
       img: "./imgs/distortion.jpg",
       p: "Boss Turbo Distortion",
-      button: "See Pedal",
     },
     {
       img: "./imgs/distortion.jpg",
       p: "Boss Turbo Distortion",
-      button: "See Pedal",
-    },
-    {
-      img: "/imgs/distortion.jpg",
-      p: "Boss Turbo Distortion",
-      button: "See Pedal",
-    },
-    {
-      img: "./imgs/distortion.jpg",
-      p: "Boss Turbo Distortion",
-      button: "See Pedal",
-    },
-    {
-      img: "./imgs/distortion.jpg",
-      p: "Boss Turbo Distortion",
-      button: "See Pedal",
-    },
-    {
-      img: "./imgs/distortion.jpg",
-      p: "Boss Turbo Distortion",
-      button: "See Pedal",
     },
   ],
   fuzz: [
     {
       img: "./imgs/fuzz.jpg",
       p: "FuzzFace",
-      button: "See Pedal",
     },
     {
       img: "./imgs/fuzz.jpg",
       p: "FuzzFace",
-      button: "See Pedal",
     },
     {
       img: "./imgs/fuzz.jpg",
       p: "Boss Turbo Distortion",
-      button: "See Pedal",
     },
     {
       img: "./imgs/fuzz.jpg",
       p: "Boss Turbo Distortion",
-      button: "See Pedal",
     },
     {
       img: "./imgs/fuzz.jpg",
       p: "Boss Turbo Distortion",
-      button: "See Pedal",
     },
     {
       img: "./imgs/fuzz.jpg",
       p: "Boss Turbo Distortion",
-      button: "See Pedal",
     },
     {
       img: "./imgs/fuzz.jpg",
       p: "Boss Turbo Distortion",
-      button: "See Pedal",
     },
     {
       img: "./imgs/fuzz.jpg",
       p: "Boss Turbo Distortion",
-      button: "See Pedal",
     },
     {
       img: "./imgs/fuzz.jpg",
       p: "Boss Turbo Distortion",
-      button: "See Pedal",
     },
     {
       img: "./imgs/fuzz.jpg",
       p: "Boss Turbo Distortion",
-      button: "See Pedal",
     },
   ],
   overdrive: [
     {
       img: "./imgs/overdrive.jpg",
       p: "Overdrive",
-      button: "See Pedal",
     },
     {
       img: "./imgs/overdrive.jpg",
       p: "Overdrive",
-      button: "See Pedal",
     },
     {
       img: "./imgs/overdrive.jpg",
       p: "Overdrive",
-      button: "See Pedal",
     },
     {
       img: "./imgs/overdrive.jpg",
       p: "Overdrive",
-      button: "See Pedal",
     },
     {
       img: "./imgs/overdrive.jpg",
       p: "Overdrive",
-      button: "See Pedal",
     },
     {
       img: "./imgs/overdrive.jpg",
       p: "Overdrive",
-      button: "See Pedal",
     },
     {
       img: "./imgs/overdrive.jpg",
       p: "Overdrive",
-      button: "See Pedal",
     },
     {
       img: "./imgs/overdrive.jpg",
       p: "Overdrive",
-      button: "See Pedal",
     },
     {
       img: "./imgs/overdrive.jpg",
       p: "Overdrive",
-      button: "See Pedal",
     },
     {
       img: "./imgs/overdrive.jpg",
       p: "Overdrive",
-      button: "See Pedal",
     },
   ],
   reverb: [
     {
       img: "./imgs/reverb.jpg",
       p: "Reverb",
-      button: "See Pedal",
     },
     {
       img: "./imgs/reverb.jpg",
       p: "Reverb",
-      button: "See Pedal",
     },
     {
       img: "./imgs/reverb.jpg",
       p: "Reverb",
-      button: "See Pedal",
     },
     {
       img: "./imgs/reverb.jpg",
       p: "Reverb",
-      button: "See Pedal",
     },
     {
       img: "./imgs/reverb.jpg",
       p: "Reverb",
-      button: "See Pedal",
     },
     {
       img: "./imgs/reverb.jpg",
       p: "Reverb",
-      button: "See Pedal",
     },
     {
       img: "./imgs/reverb.jpg",
       p: "Reverb",
-      button: "See Pedal",
     },
     {
       img: "./imgs/reverb.jpg",
       p: "Reverb",
-      button: "See Pedal",
     },
     {
       img: "./imgs/reverb.jpg",
       p: "Reverb",
-      button: "See Pedal",
     },
     {
       img: "./imgs/reverb.jpg",
       p: "Reverb",
-      button: "See Pedal",
     },
   ],
   wah: [
     {
       img: "./imgs/wah.jpg",
       p: "Wah",
-      button: "See Pedal",
     },
     {
       img: "./imgs/wah.jpg",
       p: "Wah",
-      button: "See Pedal",
     },
     {
       img: "./imgs/wah.jpg",
       p: "Wah",
-      button: "See Pedal",
     },
     {
       img: "./imgs/wah.jpg",
       p: "Wah",
-      button: "See Pedal",
     },
     {
       img: "./imgs/wah.jpg",
       p: "Wah",
-      button: "See Pedal",
     },
     {
       img: "./imgs/wah.jpg",
       p: "Wah",
-      button: "See Pedal",
     },
     {
       img: "./imgs/wah.jpg",
       p: "Wah",
-      button: "See Pedal",
     },
     {
       img: "./imgs/wah.jpg",
       p: "Wah",
-      button: "See Pedal",
     },
     {
       img: "./imgs/wah.jpg",
       p: "Wah",
-      button: "See Pedal",
     },
     {
       img: "./imgs/wah.jpg",
       p: "Wah",
-      button: "See Pedal",
     },
   ],
   delay: [
     {
       img: "./imgs/delay.jpg",
       p: "Delay",
-      button: "See Pedal",
     },
     {
       img: "./imgs/delay.jpg",
       p: "Delay",
-      button: "See Pedal",
     },
     {
       img: "./imgs/delay.jpg",
       p: "Delay",
-      button: "See Pedal",
     },
     {
       img: "./imgs/delay.jpg",
       p: "Delay",
-      button: "See Pedal",
     },
     {
       img: "./imgs/delay.jpg",
       p: "Delay",
-      button: "See Pedal",
     },
     {
       img: "./imgs/delay.jpg",
       p: "Delay",
-      button: "See Pedal",
     },
     {
       img: "./imgs/delay.jpg",
       p: "Delay",
-      button: "See Pedal",
     },
     {
       img: "./imgs/delay.jpg",
       p: "Delay",
-      button: "See Pedal",
     },
     {
       img: "./imgs/delay.jpg",
       p: "Delay",
-      button: "See Pedal",
     },
     {
       img: "./imgs/delay.jpg",
       p: "Delay",
-      button: "See Pedal",
     },
   ],
   looping: [
     {
       img: "./imgs/looping.jpg",
       p: "Looping",
-      button: "See Pedal",
     },
     {
       img: "./imgs/looping.jpg",
       p: "Looping",
-      button: "See Pedal",
     },
     {
       img: "./imgs/looping.jpg",
       p: "Looping",
-      button: "See Pedal",
     },
     {
       img: "./imgs/looping.jpg",
       p: "Looping",
-      button: "See Pedal",
     },
     {
       img: "./imgs/looping.jpg",
       p: "Looping",
-      button: "See Pedal",
     },
     {
       img: "./imgs/looping.jpg",
       p: "Looping",
-      button: "See Pedal",
     },
     {
       img: "./imgs/looping.jpg",
       p: "Looping",
-      button: "See Pedal",
     },
     {
       img: "./imgs/looping.jpg",
       p: "Looping",
-      button: "See Pedal",
     },
     {
       img: "./imgs/looping.jpg",
       p: "Looping",
-      button: "See Pedal",
     },
     {
       img: "./imgs/looping.jpg",
       p: "Looping",
-      button: "See Pedal",
     },
   ],
 };
