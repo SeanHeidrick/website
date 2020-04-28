@@ -2,7 +2,7 @@ import React from "react";
 import "./App.scss";
 import { Home } from "./pages/Home";
 import { Distortion } from "./pages/Distortion";
-import { NavBar } from "./NavBar";
+import { NavBar } from "./components/NavBar";
 import { Fuzz } from "./pages/Fuzz";
 import { Overdrive } from "./pages/Overdrive";
 import { Reverb } from "./pages/Reverb";
@@ -13,7 +13,7 @@ import { TheRest } from "./pages/TheRest";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 function App() {
-  let navBarJSON = require("./navBar.json");
+  let navBarJSON = require("./elementInfo/navBar.json");
   return (
     <>
       <Router>

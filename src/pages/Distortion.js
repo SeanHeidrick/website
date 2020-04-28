@@ -1,8 +1,18 @@
 import React from "react";
-import { Pedals } from "../Pedals";
+import { Pedals } from "../components/Pedals";
+import { pedals } from "../elementInfo/DistortionElements";
+import { Welcome } from "../components/Welcome";
+
+import { welcomeText } from "../elementInfo/welcome";
 
 export const Distortion = () => {
-  let pedalJSON = require("../pedalElement.json");
-
-  return <Pedals info={pedalJSON} />;
+  return (
+    <>
+      <Welcome
+        title={welcomeText.Distortion.title}
+        text={welcomeText.Distortion.text}
+      />
+      <Pedals info={pedals.distortion} />
+    </>
+  );
 };
