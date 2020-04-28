@@ -10,6 +10,7 @@ import { Wah } from "./pages/Wah";
 import { Delay } from "./pages/Delay";
 import { Looping } from "./pages/Looping";
 import { TheRest } from "./pages/TheRest";
+import { Footer } from "./components/footer";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 function App() {
@@ -29,6 +30,7 @@ function App() {
           <Route path="/Looping" component={Looping} />
           <Route path="/TheRest" component={TheRest} />
         </Switch>
+        <Footer />
       </Router>
     </>
   );
