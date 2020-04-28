@@ -7,14 +7,15 @@ export function NavBar(props) {
     <nav>
       <Menu right className="sidebar">
         {props.navJSON.map((item) => (
-          <Link to={item.link}>
+          <Link to={item.link} key={`${item.name} + nav`}>
             <p>{item.name}</p>
           </Link>
         ))}
       </Menu>
+
       <div className="nav-bar">
         {props.navJSON.map((item) => (
-          <Link to={item.link}>
+          <Link to={item.link} key={`${item.name} + nav`}>
             <p>{item.name}</p>
           </Link>
         ))}

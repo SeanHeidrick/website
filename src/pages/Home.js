@@ -1,14 +1,15 @@
 import React from "react";
-import { Pedals } from "../Pedals";
+import { Pedals } from "../components/Pedals";
+import { welcomeText } from "../elementInfo/welcome";
 
-import { Welcome } from "../Welcome";
+import { Welcome } from "../components/Welcome";
 
 export const Home = () => {
-  let pedalJSON = require("../pedalElement.json");
+  let pedalJSON = require("../elementInfo/pedalElement.json");
 
   return (
     <>
-      <Welcome />
+      <Welcome title={welcomeText.Home.title} text={welcomeText.Home.text} />
       <Pedals info={pedalJSON} />
     </>
   );
